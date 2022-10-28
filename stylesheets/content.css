@@ -3,17 +3,7 @@ font-family: 'BEBAS NEUE', sans-serif;}
 * {
     margin: 0 auto;
 }
-/* Обычный */
-@font-face {
-	font-family: 'BEBAS neue regular';
-	src: url(/fonts/bebas neue regular.ttf);
-}
 
-/* Жирный */
-@font-face {
-	font-family: 'BEBAS neue light';
-	src: url(/fonts/bebas neue light.ttf); 
-}
 body {
   font-family: "BEBAS NEUE", sans-serif;
 }
