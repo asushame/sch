@@ -1,0 +1,261 @@
+body {–webkit–font-family–smoothing: antialiased; –moz–osx–font–smoothing: grayscale;
+font-family: 'BEBAS NEUE', sans-serif;}
+* {
+    margin: 0 auto;
+}
+@font-face {
+  font-family: "BEBAS NEUE";
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("BEBAS NEUE"),
+
+}
+
+/* Теперь можно использовать шрифт */
+body {
+  font-family: "BEBAS NEUE", sans-serif;
+}
+nav {
+  display: flex;
+  position: absolute;
+  margin-left: 32px;
+  margin-top: 40px;
+}
+nav a {
+  margin-left: 32px;
+  text-decoration: none;
+  font-size: 48px;
+  color:#FED605;
+  text-align: center;
+}
+body {
+overflow x: hidden;
+
+}
+.firstblock{
+  box-sizing: border-box;
+  vertical-align: top;
+  height: 900px;
+  width: 100%;
+  background-color: #000000;
+}
+.bebas{
+  font-size: 640px;
+  color:#FED605;
+  padding-top: 166px;
+  padding-left: 32px;
+  vertical-align: middle;
+}
+.secondblock{
+  box-sizing: border-box;
+  vertical-align: top;
+  height: 750px;
+  width: 100%;
+  background-color: #FED605;
+  text-align:center;
+  margin-top: 0px;
+}
+.created_1{
+  font-size: 64px;
+  padding-top: 250px;
+  color: #000;
+  vertical-align: middle;
+
+}
+.director{
+  font-size: 167px;
+  text-align: center;
+  vertical-align: middle;
+}
+.thirdblock{
+  box-sizing: border-box;
+    vertical-align: top;
+    background:url(img/0.png);
+  height: 750px;
+  width: 100%;
+  text-align:center;
+  vertical-align: middle;
+    background:url('../img/i8.jpg')
+}
+.createdd{
+  font-size: 64px;
+  color: #FED605;
+  padding-top: 350px;
+}
+
+.fourthblock{
+  display:flex;
+  box-sizing: border-box;
+  vertical-align: top;
+  height: 750px;
+  width: 100%;
+  background-color: #000000;
+}
+
+.fifthblock{
+  box-sizing: border-box;
+  height: 800px;
+  width: 100%;
+  background-color: #000000;
+}
+.chislo{
+  font-size: 500px;
+  color:#FED605;
+  text-align:center;
+  padding-top: 125px;
+}
+.pp{
+  line-height: 450px;
+}
+.nachertaniya_1{
+  font-size: 106px;
+  color:#FED605;
+  text-align:center;
+  padding-bottom: 125px;
+}
+.sixthblock{
+  box-sizing: border-box;
+background:url('../img/i9.jpg');
+  vertical-align: top;
+  height: 900px;
+  width: 100%;
+  vertical-align: middle;
+}
+.thin{
+  font-size: 74px;
+  font-weight: 100;
+  padding-top: 52px;
+  padding-left:32px;
+  color:#FED605;
+}
+.rights{
+  font-size: 101px;
+  font-weight: 100;
+    color:#FED605;
+    line-height: 600px;
+    text-align:center;
+}
+.seventhblock{
+  box-sizing: border-box;
+  height: 900px;
+  width: 100%;
+  background-color: #000000;
+}
+.light{
+  color:#FED605;
+  font-size: 74px;
+  font-weight: 200;
+  padding-top: 52px;
+  padding-left: 32px;
+}
+.nachertaniya{
+  padding-top:100px;
+  color:#FED605;
+  font-size: 197px;
+  font-weight:light;
+  text-align: center;
+  font-weight: 200;
+}
+
+.eighthblock{
+  box-sizing: border-box;
+  background:url('../img/i3.png');
+  vertical-align: top;
+  height: 900px;
+  width: 100%;
+}
+.starring{
+    font-size: 58px;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 421px;
+    padding-bottom: 421px;
+}
+
+.ninthblock{
+  box-sizing: border-box;
+  height: 750px;
+  width: 100%;
+  background-color: #000000;
+}
+.bold{
+  color:#FED605;
+  font-size: 74px;
+  font-weight: 700;
+  padding-top: 52px;
+  padding-left: 32px;
+}
+.text{
+  font-size: 40px;
+  color:white;
+  text-align: center;
+  padding-top: 200px;
+}
+
+
+.tenblock{
+  white-space: nowrap;
+  box-sizing: border-box;
+background:url('../img/i4.png');
+  vertical-align: top;
+  height: 900px;
+  width: 100%;
+  margin: 0px;
+}
+
+.titres{
+  white-space: normal;
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+  color:#FED605;
+  font-size: 57px;
+  font-weight: 400;
+  padding-top:210px;
+  padding-left: 334px;
+}
+.tenblock .titres: first-child {
+	margin-right: 0%;
+}
+
+.regular{
+  color:#FED605;
+  font-size: 74px;
+  font-weight: 400;
+  padding-top: 52px;
+  padding-left: 32px;
+}
+.block{
+  box-sizing: border-box;
+  height: 900px;
+  width: 100%;
+  background-color: #000000;
+}
+.section-4 {
+    display: grid;
+    gap: 3px;
+    grid-area: section-4;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, auto);
+    background-color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 149px;
+    line-height: 1;
+    text-align: center;
+    color:#FED605;
+}
+.bblock{
+  box-sizing: border-box;
+  height: 900px;
+  width: 100%;
+  background-color: #000000;
+}
+
+.end{
+  font-size: 246px;
+  color: #FED605;
+  text-align:center;
+  vertical-align: middle;
+  padding-top: 327px;
+}
