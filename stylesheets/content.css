@@ -4,13 +4,16 @@ font-family: 'BEBAS NEUE', sans-serif;}
     margin: 0 auto;
 }
 @font-face {
-  font-family: "BEBAS NEUE";
-  /* Браузер сначала попробует найти шрифт локально */
-  src: local("BEBAS NEUE"),
-
+	font-family: 'Crimson Text';
+	font-style: normal;
+	font-weight: normal;
+	src: local('BEBAS NEUE'),
+		url('/fonts/BEBAS Neue Regular.ttf') format('ttf'), 
+		url('/fonts/BEBAS Neue book.ttf') format('ttf'),
+		url('/fonts/BEBAS Neue Light.ttf') format('ttf'),
+		url('/fonts/BEBAS Neue Regular.ttf') format('ttf');
 }
 
-/* Теперь можно использовать шрифт */
 body {
   font-family: "BEBAS NEUE", sans-serif;
 }
