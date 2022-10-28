@@ -5,8 +5,8 @@ font-family: 'BEBAS NEUE', sans-serif;}
 }
 @font-face {
 	font-family: 'BEBAS NEUE';
-	font-style: normal;
-	font-weight: normal;
+	font-style: regular;
+	font-weight: regular;
 	src: local('BEBAS NEUE'),
 		url('/fonts/BEBAS Neue Regular.ttf') format('ttf'), 
 		url('/fonts/BEBAS Neue book.ttf') format('ttf'),
